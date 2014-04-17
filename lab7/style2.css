@@ -1,0 +1,27 @@
+#content {
+    margin: auto;
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 600px;
+
+    background-color: white;
+    border: 3px solid black;
+    padding: 30px 30px 30px 30px;
+}
+
+body {
+   background-color: #4fb5fe;
+   font-family: 'Segoe UI';
+}
+
+.tweet {
+
+}
+.user {
+    text-align: left;
+    font-weight: bold;
+    color: #4fb5fe;
+}
