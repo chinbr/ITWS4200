@@ -1,0 +1,32 @@
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+#content {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 100px;
+    background-color: #4fb5fe;
+    border: 3px solid black;
+    padding: 30px 30px 30px 30px;
+}
+
+#header {
+    padding: 20px 20px 20px 20px;
+}
+
+input {
+    padding: 10px 20px 10px 20px;
+    border: solid 1px gray;
+}
+
+#JSON {
+    margin-right: 20px;
+}
