@@ -1,0 +1,95 @@
+
+body {
+    font-family: Calibri;
+    background-color: #0094ff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+div {
+    float: left;
+}
+
+img {
+    padding: 13px 13px 11px 13px;
+    float: left;
+}
+
+div#login {
+    float: right;
+}
+
+div#info {
+    padding: 20px 100px 20px 20px;
+    background-color: white;
+}
+
+div#content {
+    background-color: white;
+}
+
+div#image {
+    background-color: white;
+    margin: 0px 10px 0px 0px;
+}
+
+@media screen and (max-width:960px) {
+    body {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#main {
+        width: 450px;
+    }
+
+    div#login {
+        position: fixed;
+        right: 10px;
+    }
+
+    div#content {
+        position: relative;
+        top: 50px;
+        float: none;
+        margin-left: 0px;
+    }
+
+    div#info {
+        padding-right: 5px;
+    }
+
+    div#image {
+        position: relative;
+        top: 50px;
+        float: left;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: white;
+    }
+    div#info {
+        padding-bottom: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div#login {
+        margin-left: 0px;
+    }
+
+    div#content {
+        font-size: 90%;
+    }
+
+    img {
+       position: relative;
+       margin: 0 auto;
+    }
+}
