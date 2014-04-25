@@ -1,0 +1,194 @@
+
+body {
+    font-family: 'Segoe UI';
+    margin:0;
+    padding:0;
+}
+
+h2 {
+    margin-top: 0;
+    height: 20px;
+    width: 60%;
+    color: white;
+    float: left;
+}
+
+
+input {
+    background-color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    height: 26px;
+    width: 80px;
+    border-color: white;
+    margin-left: 20px;
+    float: right;
+
+}
+
+#text {
+  
+}
+#content {
+ /*   margin: auto;
+    left: 0;
+    right: 0;*/
+    margin-top: 0;
+    height: 100px;
+    background-color: #4fb5fe;
+    padding: 10px 10px 10px 10px;  
+    clear:both;
+    /*width: 700px;*/
+}
+
+#hidden {
+    float: right;
+    
+    width: 400px;
+}
+
+#text {
+    color: white;
+    clear:both;
+    float: none
+}
+form {
+    float: right;
+    display: inline-block;
+}
+#results {
+    padding: 30px 10px 0px 10px;
+    width: 600px;
+    height: 770px;
+    float: left;
+    margin-right: 50px;
+}
+
+.user {
+    color: #4fb5fe;
+    padding-bottom: 10px;
+}
+.charts {
+    padding-top: 30px;
+    width: 600px;
+    height: 240px;
+    float: right;
+}
+canvas {
+    float: left;
+}
+.labels {
+    width: 150px;
+    height: 200px;
+    background-color: "#D3D3D3";
+    float:left;
+    padding-left: 30px;
+}
+
+
+@media screen and (max-width:960px) {
+
+    #content {
+        height: 200px;
+    }
+    h2 {
+        width: 480px;
+        clear:both;
+    }
+    #hidden {
+        clear:both;
+        float: none;
+        margin-left: 0px;
+        position:relative;
+        top: 30px;
+    }
+    #text {
+        position:relative;
+        top: 30px;
+    }
+
+    #results {
+        float: none;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        width: 480px;
+
+    }
+    .charts {
+        float: left;
+        margin-left: 10px;
+        width: 480px;
+        height: 400px;
+    }
+    .labels {
+        float: none;
+    }
+  
+    input {
+       margin-left: 0px;
+       margin-right: 20px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+
+    
+   
+
+    body {
+        font-size:  80%;
+    }
+
+    #content {
+        height: 190px;
+    }
+    h2 {
+        width: 100%;
+        clear:both;
+    }
+    #hidden {
+        clear:both;
+        float: none;
+        margin-left: 0px;
+        position:relative;
+        top: 50px;
+        height: 20%;
+        width: 100%;
+    }
+    #text {
+        visibility: hidden;
+    }
+
+    #results {
+        float: none;
+        margin-bottom: 60px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .charts {
+        position: relative;
+        float: none;
+        clear: both;
+        margin-left: 10px;
+        width: 100%;
+        top: 40px;
+    }
+    canvas {
+        width: 150px;
+        height: 150px;
+        float:none;
+    }
+    .labels {
+        float: none;
+    }
+    form {
+        float: none;
+    }
+    input {
+       margin-left: 0px;
+       margin-right: 20px;
+       float: none;
+    }
+}

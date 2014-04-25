@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Lab 8/9</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/Chart.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="content">
+        <h2 id="header">
+            Click start to track tweets containing the keyword 'spring' 
+        </h2>
+
+        <div id="hidden">
+            <form action="" id="read"><input id="Read_db" type="submit" value="Start" /> </form>
+            <input id="JSON" type="button" value="JSON" />
+            <input id="CSV" type="button" value="CSV" />
+            <input id="Build_db" type="button" value="Build DB" />
+        </div>
+
+        <div id="text"> 
+            Click on JSON to get tweets from Twitter and add them to a JSON file <br/>
+            Click on CSV to convert the JSON file to csv format <br/>
+            Click on Build DB to create a mongodb collection from the JSON file <br/>
+        </div>
+
+        
+
+    </div>
+
+    <div id="results"></div>   
+
+    <div class="charts">
+        <canvas id="friendsChart" width="200" height="200"></canvas>
+        <div class="labels"> 
+            <p style="color: #F81F71"> Below 100 friends </p>
+            <p style="color: #349400"> Between 100 - 500 friends </p>
+            <p style="color: #464646"> Between 500 - 1000 friends </p>
+            <p style="color: #00CDEF"> Above 1000 friends </p>
+        </div>
+    </div>
+
+
+    <div class="charts">
+        <canvas id="retweetsChart" width="200" height="200"></canvas>
+        <div class="labels"> 
+            <p style="color: #F81F71"> Below 100 retweets </p>
+            <p style="color: #349400"> Between 100 - 500 retweets </p>
+            <p style="color: #464646"> Between 500 - 1000 retweets </p>
+            <p style="color: #00CDEF"> Above 1000 retweets </p>
+        </div>
+    </div>
+
+
+    <div class="charts">
+        <canvas id="followersChart" width="200" height="200"></canvas>
+        <div class="labels"> 
+            <p style="color: #F81F71"> Below 100 followers </p>
+            <p style="color: #349400"> Between 100 - 500 followers </p>
+            <p style="color: #464646"> Between 500 - 1000 followers </p>
+            <p style="color: #00CDEF"> Above 1000 followers </p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
