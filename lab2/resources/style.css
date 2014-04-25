@@ -1,0 +1,82 @@
+
+body {
+    font-family: Calibri;
+    background-color: #6f9c89;
+}
+
+.output1, .output2 {
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.output1 {
+    margin-left: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    background-color: black;
+}
+
+#rotate {
+    top: 20px;
+    margin-left: -20px;
+    position: absolute;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.linkdiv {
+    margin-left: 110px;
+}
+
+
+.weather_pic {
+    float: left;
+}
+
+h1 {
+    display: inline;
+    padding-left: 17px;
+}
+
+#text1, #text2 {
+    text-align: right;
+    float: right;
+    padding-right: 19px;
+}
+
+#slide2 {
+    position: fixed;
+    left: 0;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.output2 {
+    top: 193px;
+    position: fixed;
+    left: -250px;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#slide2:hover {
+    left: 0px;
+}
+
+    #slide2:hover .output2 {
+        left: 35px;
+    }
