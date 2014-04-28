@@ -1,0 +1,108 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>city</res:resultVariable>
+    <res:resultVariable>areaTotal</res:resultVariable>
+    <res:resultVariable>postalCode</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Anahuac,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">5.43898e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r0c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">77514</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Anahuac,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">5.5e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r1c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">77514</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Angleton,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">2.74e+07</res:value></res:binding>
+      <res:binding rdf:nodeID="r2c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">77515-77516</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Angleton,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">2.74539e+07</res:value></res:binding>
+      <res:binding rdf:nodeID="r3c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">77515-77516</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Aquilla,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">700000.0</res:value></res:binding>
+      <res:binding rdf:nodeID="r4c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">76622</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Aquilla,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">776996.0</res:value></res:binding>
+      <res:binding rdf:nodeID="r5c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">76622</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Arp,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">6.3e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r6c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">75750</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Arp,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">6.47497e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r7c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">75750</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Asherton,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">2.07199e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r8c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">78827</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Asherton,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">2.2e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r9c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">78827</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r10">
+      <res:binding rdf:nodeID="r10c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Athens,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r10c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">4.39e+07</res:value></res:binding>
+      <res:binding rdf:nodeID="r10c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">75751-75752</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r11">
+      <res:binding rdf:nodeID="r11c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Athens,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r11c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">4.40298e+07</res:value></res:binding>
+      <res:binding rdf:nodeID="r11c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">75751-75752</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r12">
+      <res:binding rdf:nodeID="r12c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Bailey&#39;s_Prairie,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r12c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">1.99e+07</res:value></res:binding>
+      <res:binding rdf:nodeID="r12c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">77515</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r13">
+      <res:binding rdf:nodeID="r13c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Bailey&#39;s_Prairie,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r13c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">1.99429e+07</res:value></res:binding>
+      <res:binding rdf:nodeID="r13c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">77515</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r14">
+      <res:binding rdf:nodeID="r14c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Balcones_Heights,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r14c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">1.55399e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r14c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">78201</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r15">
+      <res:binding rdf:nodeID="r15c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Balcones_Heights,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r15c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">1.7e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r15c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">78201</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r16">
+      <res:binding rdf:nodeID="r16c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ballinger,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r16c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">8.7e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r16c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">76821</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r17">
+      <res:binding rdf:nodeID="r17c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Barstow,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r17c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">1.7e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r17c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">79719</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r18">
+      <res:binding rdf:nodeID="r18c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Barstow,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r18c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">1.81299e+06</res:value></res:binding>
+      <res:binding rdf:nodeID="r18c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">79719</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r19">
+      <res:binding rdf:nodeID="r19c0"><res:variable>city</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Baytown,_Texas"/></res:binding>
+      <res:binding rdf:nodeID="r19c1"><res:variable>areaTotal</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">8.59e+07</res:value></res:binding>
+      <res:binding rdf:nodeID="r19c2"><res:variable>postalCode</res:variable><res:value xml:lang="en">77520-77523</res:value></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>

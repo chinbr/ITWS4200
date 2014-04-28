@@ -1,0 +1,16 @@
+<rdf: RDF>
+<foaf:Person>
+   <foaf:name>Brian Chin</foaf:name>
+   <foaf:title>Mr</foaf:title>
+   <foaf:firstName>Brian</foaf:firstName>
+   <foaf:surname>Chin</foaf:surname>
+   <foaf:title>Mr</foaf:title>
+   <foaf:nick>Chin</foaf:nick>
+   <foaf:homepage rdf:resource="https://www.facebook.com/brian.chin.9"/>
+   <foaf:schoolHomepage rdf:resource="http://www.rpi.edu"/>
+   <foaf:workplaceHomepage rdf:resource="http://www.fidelity.com"/>
+
+ 
+</foaf:Person>
+
+</rdf:RDF>
